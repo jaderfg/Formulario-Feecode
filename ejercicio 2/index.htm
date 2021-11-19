@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Formulario de encuesta de freeCodeCamp</h1>
+<p id="description">Gracias por tomarse el tiempo para ayudarnos a mejorar la plataforma</p>
+  </header>
+<hr>
+ <div>
+  <form id="survey-form">
+  
+  <label id="name-label" for="imię">nombre</label><br>
+  <input type="text" name="Imię" id="name" placeholder="tu nombre" required><br><br>
+  
+  <label id="email-label" for="E-mail">E-mail:</label><br>
+  <input type="email" name="E-mail" id="email" placeholder="Correo" required><br><br>
+  
+  <label id="number-label" for="Wiek">edad<label><br>
+  <input type="number" name="Wiek" id="number" min="1" max="120" placeholder="18"><br><br>
+    
+  Qué opción describe mejor su función actual: <br>
+  <select name="lista1" id="dropdown">
+     <option disabled selected value>academia</option>
+  <option value="tak">trabajo tiempo completo</option>
+  <option value="nie">otros</option>
+</select><br><br>
+    
+Recomendarías freeCodeCamp a un amigo:<br>
+    <input type="radio" name="lista2" value="opcja1" checked> definitivamente<br>
+<input type="radio" name="lista2" value="opcja2"> quizas<br>
+<input type="radio" name="lista2" value="opcja3"> no estoy seguro<br><br>
+    
+Cuál es tu característica favorita de freeCodeCamp:<br>
+<input type="checkbox" name="lista3" value="opcja1"> desafios<br>
+<input type="checkbox" name="lista3" value="opcja2"> proyectos<br>
+<input type="checkbox" name="lista3" value="opcja3"> codigo abierto<br><br>
+   
+Cualquier comentario o sugerencia: <br>
+<textarea rows="5">
+comentario.
+</textarea ><br><br>
+  
+    <button type="submit" id="submit">presentar</button>
+</form>
+</div>
+    <hr>
+
+</body>
+</html>
